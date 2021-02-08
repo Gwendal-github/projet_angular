@@ -1,0 +1,23 @@
+{
+  "name": "ff-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gwendal-github/training_angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  },
+  "bugs": {
+    "url": "https://github.com/Gwendal-github/training_angular/issues"
+  },
+  "homepage": "https://github.com/Gwendal-github/training_angular#readme"
+}

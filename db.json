@@ -1,0 +1,28 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "nom": "Salamèche",
+      "typeId": 2
+    },
+    {
+      "nom": "Bulbizarre",
+      "typeId": 1,
+      "id": 2
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "nom": "Plante"
+    },
+    {
+      "id": 2,
+      "nom": "Feu"
+    },
+    {
+      "id": 3,
+      "nom": "Eau"
+    }
+  ]
+}
