@@ -1,0 +1,219 @@
+{
+	"info": {
+		"_postman_id": "b5b021b8-008f-4a71-9335-e1b09415e87c",
+		"name": "Projet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Pokemons",
+			"item": [
+				{
+					"name": "Pokemons",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://projetangulargarenaux.herokuapp.com/pokemons",
+							"protocol": "https",
+							"host": [
+								"projetangulargarenaux",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"pokemons"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pokemons",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n      \"nom\": \"Carapuce\",\r\n      \"typeId\" : 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://projetangulargarenaux.herokuapp.com/pokemons",
+							"protocol": "https",
+							"host": [
+								"projetangulargarenaux",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"pokemons"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pokemons",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nom\": \"Carapusse\",\r\n    \"typeID\":3 \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://projetangulargarenaux.herokuapp.com/pokemons/3",
+							"protocol": "https",
+							"host": [
+								"projetangulargarenaux",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"pokemons",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pokemons",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://projetangulargarenaux.herokuapp.com/pokemons/3",
+							"protocol": "https",
+							"host": [
+								"projetangulargarenaux",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"pokemons",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Types",
+			"item": [
+				{
+					"name": "Types",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://projetangulargarenaux.herokuapp.com/types",
+							"protocol": "https",
+							"host": [
+								"projetangulargarenaux",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"types"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Types",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nom\" : \"Roche\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://projetangulargarenaux.herokuapp.com/types",
+							"protocol": "https",
+							"host": [
+								"projetangulargarenaux",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"types"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Types",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nom\":\"Sol\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://projetangulargarenaux.herokuapp.com/types/4",
+							"protocol": "https",
+							"host": [
+								"projetangulargarenaux",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"types",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Types",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://projetangulargarenaux.herokuapp.com/types/4",
+							"protocol": "https",
+							"host": [
+								"projetangulargarenaux",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"types",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
