@@ -23,6 +23,18 @@
     {
       "id": 3,
       "nom": "Eau"
+    },
+    {
+      "id": 4,
+      "nom": "Insecte"
+    },
+    {
+      "id": 5,
+      "nom": "Vol"
+    },
+    {
+      "id": 6,
+      "nom": "Roche"
     }
   ]
 }
